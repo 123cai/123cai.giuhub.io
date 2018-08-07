@@ -1,12 +1,13 @@
 {
   "main.css": "static/css/main.15b4f90c.css",
   "main.css.map": "static/css/main.15b4f90c.css.map",
-  "main.js": "static/js/main.26384869.js",
-  "main.js.map": "static/js/main.26384869.js.map",
+  "main.js": "static/js/main.7f757a91.js",
+  "main.js.map": "static/js/main.7f757a91.js.map",
   "static\\media\\a1.jpg": "static/media/a1.89072293.jpg",
   "static\\media\\a2.jpg": "static/media/a2.544d5665.jpg",
   "static\\media\\a3.jpg": "static/media/a3.3134df59.jpg",
   "static\\media\\a4.jpg": "static/media/a4.ef7d30a1.jpg",
+  "static\\media\\guanzhuzhongxin.jpg": "static/media/guanzhuzhongxin.7142f781.jpg",
   "static\\media\\headimg19.jpg": "static/media/headimg19.dfe73f21.jpg",
   "static\\media\\jingtiaoxixuan.jpg": "static/media/jingtiaoxixuan.999a7f6c.jpg",
   "static\\media\\jinrshangxin.jpg": "static/media/jinrshangxin.6e7e492d.jpg",
@@ -16,7 +17,6 @@
   "static\\media\\my-head.jpg": "static/media/my-head.90e34268.jpg",
   "static\\media\\my.jpg": "static/media/my.e3f61f9b.jpg",
   "static\\media\\nocontent.png": "static/media/nocontent.8088c1bb.png",
-  "static\\media\\qq.png": "static/media/qq.433ef328.png",
   "static\\media\\slideimg1.jpg": "static/media/slideimg1.27d54396.jpg",
   "static\\media\\slideimg3.jpg": "static/media/slideimg3.5498b05a.jpg",
   "static\\media\\taoke1.jpg": "static/media/taoke1.b434a470.jpg",
@@ -26,6 +26,7 @@
   "static\\media\\taokezhijia.jpg": "static/media/taokezhijia.f32971e1.jpg",
   "static\\media\\touminglogo.png": "static/media/touminglogo.2b5b1a2b.png",
   "static\\media\\wanzlogo.jpg": "static/media/wanzlogo.c875e7c6.jpg",
+  "static\\media\\weixinhao.jpg": "static/media/weixinhao.3a17a385.jpg",
   "static\\media\\zhinan1.jpg": "static/media/zhinan1.96714264.jpg",
   "static\\media\\头条.png": "static/media/头条.c684d3cf.png"
 }
