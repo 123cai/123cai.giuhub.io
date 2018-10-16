@@ -3,18 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <style media="screen">
       body,html{
         padding: 0px;
         margin: 0px;
+        background: #fff;
       }
       .head{
         font-size: 0px;
+        width: 100%;
       }
-      .head img{width: 100%; max-width: 640px; display: block;margin: 0 auto;margin-bottom: 200px;}
+      .head img{width: 100%; max-width: 460px; display: block;margin: 0 auto;margin-bottom: 200px;}
       .head img:first-child{margin-bottom: 100px;}
       .head img:last-child{margin-bottom: 100px;}
-
+      @media screen and (max-width: 640px){
+        .head img{margin-bottom: 100px;}
+        .head img:first-child{margin-bottom: 50px;}
+        .head img:last-child{margin-bottom: 50px;}
+      }
     </style>
   </head>
   <body>
