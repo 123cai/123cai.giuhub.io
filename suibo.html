@@ -4,43 +4,70 @@
 	<meta charset="utf-8" />
 	<meta name="aplus-waiting" content="MAN">
 	<!-- <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>CPRM管理平台</title>
 	<style>
 		.main{
-			width: 100%;
-			height: 100%;
 			margin: 0px;
 			padding: 0px;
+			background-image: url("./images/suibo_flooringpage_bg.png");
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
 		}
+	
 	.main .image-one{
 		position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-		width: 100%;
-		height: 100%;
+    top: 15%;
+    width: 100%;
 	}
 	img{
 		font-size: 0px;
 	}
 	.main .image-two{
-		position: absolute;
+		position: fixed;
     /* text-align: center; */
-    bottom: 11%;
+    bottom: 18%;
     margin: 0 auto;
-    left: 50%;
-    margin-left: -207px;
+    left: 0%;
+    margin-left: 23%;
+    width: 54%;
 
 	}
+	@media screen and (min-width: 760px) {
+    	.main{
+				height: 120% !important;
+			}
+			.main .image-two{
+				bottom: 6%;
+			}
+			.main .image-one{
+				top: 5%;
+			}
+   }
 	</style>
 </head>
 <body>
 	<div class="main">
-				<img class="image-one" src="./images/suibo_flooringpage_bg.png" alt="">
-				<img class="image-two" src="./images/suibo_flooringpage_btn_down2.png" alt="">
-	  
+				<img class="image-one" src="./images/suibo_flooringpage_text.png" alt="">
+				<img class="image-two" onClick="onLink();" src="./images/suibo_flooringpage_btn_down2.png" alt="">
 	</div>
-
+<script>
+  function onLink(){
+		var ua = navigator.userAgent.toLowerCase();
+		//系统判断
+		if(ua.match(/iPhone/i)=="iphone") {//iphone
+			window.location.href="https://www.pgyer.com/anycast";
+		}else if(ua.match(/Android/i)=="android"){
+			window.location.href="https://sj.qq.com/myapp/detail.htm?apkName=taole.com.quokka";
+		}else{//其他
+			window.location.href="https://sj.qq.com/myapp/detail.htm?apkName=taole.com.quokka";
+		}
+	}
+</script>
 </body>
 </html>
